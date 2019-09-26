@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="肉松Yum&#39;s blog">
 <meta property="og:description" content="小白级hexo+github搭建轻松拥有你的专属博客 第一步 你要拥有node和git   第二步 Github账户注册   第三部 我们就开始来使用hexo啦  123456npm run install hexo -g //安装hexohexo -v //检查是否成功hexo init //初始化项目npm install //安装组件hexo g //生成静态文件hexo s //开启服务">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-26T13:26:07.310Z">
+<meta property="og:updated_time" content="2019-09-26T14:26:01.379Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="小白级hexo+github搭建">
 <meta name="twitter:description" content="小白级hexo+github搭建轻松拥有你的专属博客 第一步 你要拥有node和git   第二步 Github账户注册   第三部 我们就开始来使用hexo啦  123456npm run install hexo -g //安装hexohexo -v //检查是否成功hexo init //初始化项目npm install //安装组件hexo g //生成静态文件hexo s //开启服务">
@@ -371,7 +371,7 @@
 <blockquote>
 <p>第三部 我们就开始来使用hexo啦</p>
 </blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm run install hexo -g //安装hexo</span><br><span class="line">hexo -v //检查是否成功</span><br><span class="line">hexo init //初始化项目</span><br><span class="line">npm install //安装组件</span><br><span class="line">hexo g //生成静态文件</span><br><span class="line">hexo s //开启服务</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm run install hexo -g <span class="comment">//安装hexo</span></span><br><span class="line">hexo -v <span class="comment">//检查是否成功</span></span><br><span class="line">hexo init <span class="comment">//初始化项目</span></span><br><span class="line">npm install <span class="comment">//安装组件</span></span><br><span class="line">hexo g <span class="comment">//生成静态文件</span></span><br><span class="line">hexo s <span class="comment">//开启服务</span></span><br></pre></td></tr></table></figure>
 
 <p>在浏览器输入<a href="http://localhost:4000/，看到以下页面你就成功了！" target="_blank" rel="noopener">http://localhost:4000/，看到以下页面你就成功了！</a></p>
 <h4 id="接下来我们将Hexo与Github-page联系起来"><a href="#接下来我们将Hexo与Github-page联系起来" class="headerlink" title="接下来我们将Hexo与Github page联系起来"></a>接下来我们将Hexo与Github page联系起来</h4><blockquote>
@@ -384,7 +384,7 @@
 <li>首先，ssh key肯定要配置好。</li>
 <li>其次，配置_config.yml中有关deploy的部分：</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git </span><br><span class="line">  repo: git@github.com:yumeng819/yumeng819.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git </span><br><span class="line">  repo: git@github.com:yumeng819/yumeng819.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>输入hexo d就会将本次有改动的代码全部提交</li>
@@ -399,7 +399,7 @@
 
 <p>hexo会帮我们在_posts下生成相关md文件<br><br>打开这个文件就可以开始写博客了</p>
 <hr>
-<h5 id="常见的hexo命令"><a href="#常见的hexo命令" class="headerlink" title="常见的hexo命令"></a>常见的hexo命令</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;postName&quot; #新建文章 缩写：hexo n</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo generate #生成静态页面至public目录 缩写：hexo g</span><br><span class="line">hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server） 缩写：hexo s</span><br><span class="line">hexo deploy #部署到GitHub 缩写：hexo d</span><br><span class="line">hexo help  # 查看帮助</span><br><span class="line">hexo version  #查看Hexo的版本</span><br></pre></td></tr></table></figure>
+<h5 id="常见的hexo命令"><a href="#常见的hexo命令" class="headerlink" title="常见的hexo命令"></a>常见的hexo命令</h5><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new "postName" #新建文章 缩写：hexo n</span><br><span class="line">hexo new page "pageName" #新建页面</span><br><span class="line">hexo generate #生成静态页面至public目录 缩写：hexo g</span><br><span class="line">hexo server #开启预览访问端口（默认端口4000，'ctrl + c'关闭server） 缩写：hexo s</span><br><span class="line">hexo deploy #部署到GitHub 缩写：hexo d</span><br><span class="line">hexo help  # 查看帮助</span><br><span class="line">hexo version  #查看Hexo的版本</span><br></pre></td></tr></table></figure>
 
 
       
@@ -530,7 +530,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="肉松Yum&#39;s blog">
 <meta property="og:description" content="之前声明变量用 var 那为什么要有let 和 const呢? var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined  3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-09-26T13:26:33.209Z">
+<meta property="og:updated_time" content="2019-09-26T14:26:11.368Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="es6之let&amp;const">
 <meta name="twitter:description" content="之前声明变量用 var 那为什么要有let 和 const呢? var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined  3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升">
@@ -364,12 +364,12 @@
       
         <p>之前声明变量用 var 那为什么要有let 和 const呢?</p>
 <h3 id="var的缺点"><a href="#var的缺点" class="headerlink" title="var的缺点"></a>var的缺点</h3><p>1、污染全局变量<br>2、变量提升 （在未声明之前 会预先定义）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">console.log(a)</span><br><span class="line">var a = 1;</span><br><span class="line">// undeined</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(a)</span><br><span class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="comment">// undeined</span></span><br></pre></td></tr></table></figure>
 
 <p>3、可以被定义多次<br>4、不能声明常量<br>5、默认不会产生作用域</p>
 <p>既然var有这些问题，let和const做了处理</p>
 <h3 id="let的特性"><a href="#let的特性" class="headerlink" title="let的特性"></a>let的特性</h3><p>1、不会污染全局变量（不再挂载到window）<br>2、不存在变量提升<br>3、同一个作用域下不可以重复定义<br>4、let+{}可以产生一个作用域,可以用它来解决异步循环的问题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">let a = 1;</span><br><span class="line">&#123;</span><br><span class="line">    console.log(a);</span><br><span class="line">    let a = 2;  //暂存死区</span><br><span class="line">&#125;</span><br><span class="line">// a is not defined</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="number">1</span>;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(a);</span><br><span class="line">    <span class="keyword">let</span> a = <span class="number">2</span>;  <span class="comment">//暂存死区</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// a is not defined</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="const特性"><a href="#const特性" class="headerlink" title="const特性"></a>const特性</h3><p>声明一个只读的常量，只要变量不改变就用const</p>
 
@@ -420,8 +420,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/09/26/deepClone/" rel="prev" title="实现一个简单的深拷贝">
-                实现一个简单的深拷贝 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/09/26/descturction/" rel="prev" title="es6之解构赋值">
+                es6之解构赋值 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -501,7 +501,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

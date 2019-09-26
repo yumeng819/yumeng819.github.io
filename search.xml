@@ -8,18 +8,18 @@
         <category>技术</category>
       </categories>
       <tags>
-        <tag>教程</tag>
+        <tag>es6</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[es6之let&const]]></title>
-    <url>%2F2019%2F09%2F26%2Flet%26const%2F</url>
-    <content type="text"><![CDATA[es6之let&amp;const之前声明变量用 var那为什么要有let 和 const呢首先，我们思考var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined 3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升3、同一个作用域下不可以重复定义4、let+{}可以产生一个作用域,可以用它来解决异步循环的问题 123456let a = 1;&#123; console.log(a); let a = 2; //暂存死区&#125;// a is not defined const特性声明一个只读的常量，只要变量不改变就用const]]></content>
+    <url>%2F2019%2F09%2F25%2Flet%26const%2F</url>
+    <content type="text"><![CDATA[之前声明变量用 var 那为什么要有let 和 const呢? var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined 3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升3、同一个作用域下不可以重复定义4、let+{}可以产生一个作用域,可以用它来解决异步循环的问题 123456let a = 1;&#123; console.log(a); let a = 2; //暂存死区&#125;// a is not defined const特性声明一个只读的常量，只要变量不改变就用const]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>教程</tag>
+        <tag>es6</tag>
       </tags>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
         <category>技术</category>
       </categories>
       <tags>
-        <tag>教程</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>

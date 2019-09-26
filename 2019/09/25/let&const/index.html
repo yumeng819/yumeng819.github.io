@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="es6,">
 
 
 
@@ -79,16 +79,18 @@
 
 
 
-<meta name="description" content="爱我所爱">
-<meta property="og:type" content="website">
-<meta property="og:title" content="肉松Yum&#39;s blog">
-<meta property="og:url" content="http://yumeng819.cn/archives/2019/09/index.html">
+<meta name="description" content="之前声明变量用 var 那为什么要有let 和 const呢? var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined  3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升">
+<meta name="keywords" content="es6">
+<meta property="og:type" content="article">
+<meta property="og:title" content="es6之let&amp;const">
+<meta property="og:url" content="http://yumeng819.cn/2019/09/25/let&const/index.html">
 <meta property="og:site_name" content="肉松Yum&#39;s blog">
-<meta property="og:description" content="爱我所爱">
+<meta property="og:description" content="之前声明变量用 var 那为什么要有let 和 const呢? var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined  3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-09-26T13:26:33.209Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="肉松Yum&#39;s blog">
-<meta name="twitter:description" content="爱我所爱">
+<meta name="twitter:title" content="es6之let&amp;const">
+<meta name="twitter:description" content="之前声明变量用 var 那为什么要有let 和 const呢? var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined  3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yumeng819.cn/archives/2019/09/">
+  <link rel="canonical" href="http://yumeng819.cn/2019/09/25/let&const/">
 
 
 
 
 
-  <title>归档 | 肉松Yum's blog</title>
+  <title>es6之let&const | 肉松Yum's blog</title>
   
 
 
@@ -143,7 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -257,107 +259,190 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
-
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 4 篇日志。 继续努力。
-      </span>
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2019">2019</h1>
-          </div>
-        
-        
-
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yumeng819.cn/2019/09/25/let&const/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="肉松">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="肉松Yum's blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2019/09/26/deepClone/" itemprop="url">
-              
-                <span itemprop="name">实现一个简单的深拷贝</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">es6之let&const</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-09-26T00:00:00+08:00" content="2019-09-26">
-          09-26
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-25T00:00:00+08:00">
+                2019-09-25
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/09/25/let&const/" itemprop="url">
-              
-                <span itemprop="name">es6之let&const</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-09-25T00:00:00+08:00" content="2019-09-25">
-          09-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
+      
+        <p>之前声明变量用 var 那为什么要有let 和 const呢?</p>
+<h3 id="var的缺点"><a href="#var的缺点" class="headerlink" title="var的缺点"></a>var的缺点</h3><p>1、污染全局变量<br>2、变量提升 （在未声明之前 会预先定义）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">console.log(a)</span><br><span class="line">var a = 1;</span><br><span class="line">// undeined</span><br></pre></td></tr></table></figure>
+
+<p>3、可以被定义多次<br>4、不能声明常量<br>5、默认不会产生作用域</p>
+<p>既然var有这些问题，let和const做了处理</p>
+<h3 id="let的特性"><a href="#let的特性" class="headerlink" title="let的特性"></a>let的特性</h3><p>1、不会污染全局变量（不再挂载到window）<br>2、不存在变量提升<br>3、同一个作用域下不可以重复定义<br>4、let+{}可以产生一个作用域,可以用它来解决异步循环的问题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">let a = 1;</span><br><span class="line">&#123;</span><br><span class="line">    console.log(a);</span><br><span class="line">    let a = 2;  //暂存死区</span><br><span class="line">&#125;</span><br><span class="line">// a is not defined</span><br></pre></td></tr></table></figure>
+
+<h3 id="const特性"><a href="#const特性" class="headerlink" title="const特性"></a>const特性</h3><p>声明一个只读的常量，只要变量不改变就用const</p>
+
+      
     </div>
+    
+    
+    
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/gongzonghao.jpg" alt="肉松 wechat" style="width: 200px; max-width: 100%;">
+    <div>欢迎您扫一扫上面的微信公众号，订阅我的博客！</div>
+</div>
+
+      </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/es6/" rel="tag"># es6</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/08/12/hexo/" rel="next" title="小白级hexo+github搭建">
+                <i class="fa fa-chevron-left"></i> 小白级hexo+github搭建
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/09/26/deepClone/" rel="prev" title="实现一个简单的深拷贝">
+                实现一个简单的深拷贝 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -365,6 +450,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -385,8 +474,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -464,6 +562,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#var的缺点"><span class="nav-number">1.</span> <span class="nav-text">var的缺点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#let的特性"><span class="nav-number">2.</span> <span class="nav-text">let的特性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#const特性"><span class="nav-number">3.</span> <span class="nav-text">const特性</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -617,6 +731,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

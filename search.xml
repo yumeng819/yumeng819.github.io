@@ -12,6 +12,17 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[hexo踩过的坑]]></title>
+    <url>%2F2019%2F09%2F26%2FhexoErr%2F</url>
+    <content type="text"><![CDATA[1.hexo在本地修改的nexT主题后，无法push到Github 提出问题：无法提交某个子文件夹下的文件解决方法：删掉子文件夹下的.git目录（themes/next下的.git目录） 12git rm --cached nextgit add next // next为子文件的路径 然后正常提交即可成功，亲测有效]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[es6之解构赋值]]></title>
     <url>%2F2019%2F09%2F26%2Fdescturction%2F</url>
     <content type="text"><![CDATA[解构赋值主要分为对象的解构和数组的解构 数组的解构赋值12 对象的解构赋值12 扩展运算符12]]></content>

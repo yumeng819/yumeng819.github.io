@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[实现一个简单的深拷贝]]></title>
+    <url>%2F2019%2F09%2F26%2FdeepClone%2F</url>
+    <content type="text"><![CDATA[实现一个简单的深拷贝那什么是深拷贝呢？什么是浅拷贝呢？浅拷贝 拷贝的是引用地址 1234let arr = [1,2,3,[4]];let newArr = arr.slice(3);newArr[0][0] = 10;// 改变newArr的值，arr也会改变，即slice是浅拷贝console.log(arr) // [ 1, 2, 3, [ 10 ] ] 深拷贝 拷贝地址中的内容]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[es6之let&const]]></title>
+    <url>%2F2019%2F09%2F26%2Flet%26const%2F</url>
+    <content type="text"><![CDATA[es6之let&amp;const之前声明变量用 var那为什么要有let 和 const呢首先，我们思考var的缺点1、污染全局变量2、变量提升 （在未声明之前 会预先定义） 123console.log(a)var a = 1;// undeined 3、可以被定义多次4、不能声明常量5、默认不会产生作用域 既然var有这些问题，let和const做了处理 let的特性1、不会污染全局变量（不再挂载到window）2、不存在变量提升3、同一个作用域下不可以重复定义4、let+{}可以产生一个作用域,可以用它来解决异步循环的问题 123456let a = 1;&#123; console.log(a); let a = 2; //暂存死区&#125;// a is not defined const特性声明一个只读的常量，只要变量不改变就用const]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[小白级hexo+github搭建]]></title>
+    <url>%2F2019%2F08%2F12%2Fhexo%2F</url>
+    <content type="text"><![CDATA[小白级hexo+github搭建轻松拥有你的专属博客 第一步 你要拥有node和git 第二步 Github账户注册 第三部 我们就开始来使用hexo啦 123456npm run install hexo -g //安装hexohexo -v //检查是否成功hexo init //初始化项目npm install //安装组件hexo g //生成静态文件hexo s //开启服务 在浏览器输入http://localhost:4000/，看到以下页面你就成功了！ 接下来我们将Hexo与Github page联系起来 新建一个名为你的用户名.github.io的仓库 配置 首先，ssh key肯定要配置好。 其次，配置_config.yml中有关deploy的部分： 1234deploy: type: git repo: git@github.com:yumeng819/yumeng819.github.io.git branch: master 输入hexo d就会将本次有改动的代码全部提交 网站访问地址就是 http://你的用户名.github.io 绑定域名 在你的github项目新建一个名为CNAME的文件（无后缀），里面填写你的域名即可 写博客1hexo new &apos;my-first-blog&apos; hexo会帮我们在_posts下生成相关md文件打开这个文件就可以开始写博客了 常见的hexo命令1234567hexo new &quot;postName&quot; #新建文章 缩写：hexo nhexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录 缩写：hexo ghexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server） 缩写：hexo shexo deploy #部署到GitHub 缩写：hexo dhexo help # 查看帮助hexo version #查看Hexo的版本]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2016%2F09%2F13%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="造物竞品分析报告一、 项目背景&amp;emsp;&amp;emsp;手工由早期的刺绣、剪纸等发展至今，已形成了多种多样的形式。&amp;emsp;&amp;emsp;在追求时尚、独特、新颖的时代年轻人喜欢标新立异与众不同。他们不满足于工厂批量加工的现成商品，于是DIY经济火热升温并因此成为新的淘金地。DoTiYourself，DIY的新消费理念其卖点不是产品本身而是制作产品的过程。对消费者来说是将自己的创意变为现实体验创造的快">
+<meta property="og:type" content="article">
+<meta property="og:title" content="造物app产品搭建之竞品分析报告">
+<meta property="og:url" content="http://yumeng819.cn/2020/08/20/zw-app/index.html">
+<meta property="og:site_name" content="肉松Yum&#39;s blog">
+<meta property="og:description" content="造物竞品分析报告一、 项目背景&amp;emsp;&amp;emsp;手工由早期的刺绣、剪纸等发展至今，已形成了多种多样的形式。&amp;emsp;&amp;emsp;在追求时尚、独特、新颖的时代年轻人喜欢标新立异与众不同。他们不满足于工厂批量加工的现成商品，于是DIY经济火热升温并因此成为新的淘金地。DoTiYourself，DIY的新消费理念其卖点不是产品本身而是制作产品的过程。对消费者来说是将自己的创意变为现实体验创造的快">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yumeng819.cn/img/index.png">
+<meta property="og:image" content="http://yumeng819.cn/img/find.png">
+<meta property="og:image" content="http://yumeng819.cn/img/store.png">
+<meta property="og:image" content="http://yumeng819.cn/img/course.png">
+<meta property="og:image" content="http://yumeng819.cn/img/detail.png">
+<meta property="og:image" content="http://yumeng819.cn/img/my.png">
+<meta property="og:updated_time" content="2022-08-29T02:17:24.083Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="造物app产品搭建之竞品分析报告">
+<meta name="twitter:description" content="造物竞品分析报告一、 项目背景&amp;emsp;&amp;emsp;手工由早期的刺绣、剪纸等发展至今，已形成了多种多样的形式。&amp;emsp;&amp;emsp;在追求时尚、独特、新颖的时代年轻人喜欢标新立异与众不同。他们不满足于工厂批量加工的现成商品，于是DIY经济火热升温并因此成为新的淘金地。DoTiYourself，DIY的新消费理念其卖点不是产品本身而是制作产品的过程。对消费者来说是将自己的创意变为现实体验创造的快">
+<meta name="twitter:image" content="http://yumeng819.cn/img/index.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yumeng819.cn/2020/08/20/zw-app/">
+
+
+
+
+
+  <title>造物app产品搭建之竞品分析报告 | 肉松Yum's blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">肉松Yum's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yumeng819.cn/2020/08/20/zw-app/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="肉松">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="肉松Yum's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">造物app产品搭建之竞品分析报告</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-08-20T16:45:45+08:00">
+                2020-08-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="造物竞品分析报告"><a href="#造物竞品分析报告" class="headerlink" title="造物竞品分析报告"></a>造物竞品分析报告</h2><h3 id="一、-项目背景"><a href="#一、-项目背景" class="headerlink" title="一、 项目背景"></a>一、 项目背景</h3><p>&emsp;&emsp;手工由早期的刺绣、剪纸等发展至今，已形成了多种多样的形式。<br>&emsp;&emsp;在追求时尚、独特、新颖的时代年轻人喜欢标新立异与众不同。他们不满足于工厂批量加工的现成商品，于是DIY经济火热升温并因此成为新的淘金地。DoTiYourself，DIY的新消费理念其卖点不是产品本身而是制作产品的过程。对消费者来说是将自己的创意变为现实体验创造的快乐，对创业者来说则是在尝试全新的创业方式。<br>&emsp;&emsp;随着人们消费观念需求而诞生的行业，时代的需求，主张个性的发展趋势，不得不承认个性化礼品定制将成为互联网时代最具影响力的商业模式。<br>&emsp;&emsp;从商业价值上来说，参考《中国礼品行业市场前瞻与投资战略规划分析报告》显示，礼品定制满足了消费者的这一需求，更具精神享受的资本，更有情感的价值，让消费者享受到消费的真正乐趣“感受消费”体验消费”使这个追求时尚、个性、温馨的社会生动起来。<br>&emsp;&emsp;从个人价值上，    在浮躁的时代，不只是追求一种高效的方式，同时还应该有一颗真诚热爱生活的心。手工本身就是一种对匠人的追求与膜拜。越来越多的年轻人喜欢手作，可以多一分爱好，可以静下心来完成一件作品，在工作之余享受生活带来的小确幸。通过DIY手工提升个人品味与气质，修身养性，做自己生活的艺术家！<br>&emsp;&emsp;通过对10位手工DIY用户访谈发现有用户存在浏览手工作品、学习手工作品、购买手工作品的需求。为了给目标用户提供更好的解决方案，特进行本次竞品分析。</p>
+<h3 id="二、-竞品概述"><a href="#二、-竞品概述" class="headerlink" title="二、 竞品概述"></a>二、 竞品概述</h3><p>&emsp;&emsp;本次竞品分析，充分调研了手工客、嘉特汇、Kiinii、艺趣、Makers、恋物市集、一定、拾尚等8款产品。最终选择品类和商城做的比较好的两款产品：手工客和Kiinii进行竞品分析。<br><strong>手工客简介</strong>：手工DIY内容创作与交流社区，可以满足浏览手工、购买手工、学习手工、交流社区的各种需求。<br><strong>主要功能有</strong>：浏览、商城、课程等功能；<br><strong>Kiinii简介</strong>：手工与设计的慢生活兴趣社区，可以满足浏览学习购买等功能。<br><strong>主要功能有</strong>：社区、发现、市集、教程；<br>手工客和Kiinii这两款产品目标用户都是喜欢手工的用户，体量差不多，并且都有类似品类和商城功能，所以本报告选取这两款产品进行分析。</p>
+<h3 id="三、-竞品目标功能对比"><a href="#三、-竞品目标功能对比" class="headerlink" title="三、 竞品目标功能对比"></a>三、 竞品目标功能对比</h3><p>3.1 首页：<br> <img src="/img/index.png" width="40%"><br>3.2 发现页面<br> <img src="/img/find.png" width="40%"><br>3.3 商城<br> <img src="/img/store.png" width="40%"><br>3.4 课程页面：<br> <img src="/img/course.png" width="40%"><br>3.5 商品详情页：<br> <img src="/img/detail.png" width="40%"><br>3.6 个人页面：<br> <img src="/img/my.png" width="40%"></p>
+<h3 id="四、竞品分析总结"><a href="#四、竞品分析总结" class="headerlink" title="四、竞品分析总结"></a>四、竞品分析总结</h3><p><strong>手工客-优点：</strong></p>
+<ol>
+<li>功能完善，很多设计也符合用户操作习惯。</li>
+<li>手作总类全，有一定的用户量输出内容，官方也会输出一些高质量内容。</li>
+</ol>
+<p><strong>手工客-缺点：</strong></p>
+<ol>
+<li>产品如果定位为社区的话，我的页面，功能偏向于商城，可做部分删减。</li>
+<li>课程多为付费并且价格不低，也没有试听部分。</li>
+</ol>
+<p><strong>kiinii-优点：</strong></p>
+<ol>
+<li>整体设计具有一定的艺术性，大幅封面营造一种画廊的感觉。</li>
+<li>整个应用展示内容的卡片统一，减少设计研发成本。</li>
+<li>重点操作加有引导，提供良好的用户体验。</li>
+</ol>
+<p><strong>kiinii-缺点：</strong></p>
+<ol>
+<li>功二级分类不明确，主页动态，我的、我赞可以对入口进行降级放到个人里，将发现整合进来。</li>
+<li>市集商品分类，艺术、女人、男人、家具、食品、美妆，定位为手工社区，这个分类不合适。</li>
+<li>高质量内容比较少。<h3 id="五、-对造物的意义和思考"><a href="#五、-对造物的意义和思考" class="headerlink" title="五、 对造物的意义和思考"></a>五、 对造物的意义和思考</h3></li>
+<li>首页可以借鉴手工客的卡片双排瀑布流式进行展示手工内容，但会把图文视频放在一起不做分类，去掉市集功能，让首页集中于社区内容展示；因为作为手工社区，内容输出是最重要的，借鉴kiinii发布按钮放在明显的位置。</li>
+<li>发布功能都具有参考价值，分类编辑，区别文章教程商品的内容形式不同导致的排版不同。</li>
+<li>商城借鉴手工客，进行分类和布局，更好的帮助用户进行分类选择。让用户快速找到自己想要的。</li>
+<li>商城商品详情可借鉴淘宝等布局和功能安排，适应顾客操作习惯，让顾客更容易看到需要的信息进行购买。</li>
+<li>观察几个app发现功能都会与首页内容有一定上的重复，会参考小红书，把发现和首页进行一个整合。</li>
+<li>课程借鉴kiinii在展示页面加上时长和难易度、推出一些免费课程，分类借鉴手工客，按照热门推荐、会员课程、入门课、进阶课等进行分类。</li>
+<li>我的页面除了基本信息展示，会员功能及布局可借鉴手工客，但需要将功能做一些整合和删减，侧重社区，商城比重减轻一点。</li>
+</ol>
+
+      
+    </div>
+    
+    
+    
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/images/gongzonghao.jpg" alt="肉松 wechat" style="width: 200px; max-width: 100%;">
+    <div>欢迎您扫一扫上面的微信公众号，订阅我的博客！</div>
+</div>
+
+      </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/04/07/zyb/" rel="next" title="作业帮产品分析报告">
+                <i class="fa fa-chevron-left"></i> 作业帮产品分析报告
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/08/20/zw-app2/" rel="prev" title="造物app产品搭建之PRD文档">
+                造物app产品搭建之PRD文档 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpeg" alt="肉松">
+            
+              <p class="site-author-name" itemprop="name">肉松</p>
+              <p class="site-description motion-element" itemprop="description">爱我所爱</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/yumeng819" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#造物竞品分析报告"><span class="nav-number">1.</span> <span class="nav-text">造物竞品分析报告</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、-项目背景"><span class="nav-number">1.1.</span> <span class="nav-text">一、 项目背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、-竞品概述"><span class="nav-number">1.2.</span> <span class="nav-text">二、 竞品概述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、-竞品目标功能对比"><span class="nav-number">1.3.</span> <span class="nav-text">三、 竞品目标功能对比</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、竞品分析总结"><span class="nav-number">1.4.</span> <span class="nav-text">四、竞品分析总结</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、-对造物的意义和思考"><span class="nav-number">1.5.</span> <span class="nav-text">五、 对造物的意义和思考</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">肉松</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

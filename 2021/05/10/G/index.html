@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="G端产品,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="聊聊G端产品G端产品，G指的是“Government”，是为政府、包括事业单位开发的产品。 严格来讲，G端产品是B端产品（面向企业）的一个分支。 项目实施流程以下仅从作者所在文化行业事业单位经验角度出发进行总结 项目售前合同招标期间需配合售前商务撰写招标合同，完善功能部分。 项目立项商务进行立项后，同步项目经理进行立项会议，正式启动本年度合同内工作。 需求拆解产品经理配合项目经理，进行合同内WBS">
+<meta name="keywords" content="G端产品">
+<meta property="og:type" content="article">
+<meta property="og:title" content="聊聊G端产品">
+<meta property="og:url" content="http://yumeng819.cn/2021/05/10/G/index.html">
+<meta property="og:site_name" content="肉松Yum&#39;s blog">
+<meta property="og:description" content="聊聊G端产品G端产品，G指的是“Government”，是为政府、包括事业单位开发的产品。 严格来讲，G端产品是B端产品（面向企业）的一个分支。 项目实施流程以下仅从作者所在文化行业事业单位经验角度出发进行总结 项目售前合同招标期间需配合售前商务撰写招标合同，完善功能部分。 项目立项商务进行立项后，同步项目经理进行立项会议，正式启动本年度合同内工作。 需求拆解产品经理配合项目经理，进行合同内WBS">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2022-08-30T07:41:38.367Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="聊聊G端产品">
+<meta name="twitter:description" content="聊聊G端产品G端产品，G指的是“Government”，是为政府、包括事业单位开发的产品。 严格来讲，G端产品是B端产品（面向企业）的一个分支。 项目实施流程以下仅从作者所在文化行业事业单位经验角度出发进行总结 项目售前合同招标期间需配合售前商务撰写招标合同，完善功能部分。 项目立项商务进行立项后，同步项目经理进行立项会议，正式启动本年度合同内工作。 需求拆解产品经理配合项目经理，进行合同内WBS">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yumeng819.cn/2021/05/10/G/">
+
+
+
+
+
+  <title>聊聊G端产品 | 肉松Yum's blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">肉松Yum's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yumeng819.cn/2021/05/10/G/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="肉松">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="肉松Yum's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">聊聊G端产品</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-05-10T00:00:00+08:00">
+                2021-05-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/产品/" itemprop="url" rel="index">
+                    <span itemprop="name">产品</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="聊聊G端产品"><a href="#聊聊G端产品" class="headerlink" title="聊聊G端产品"></a>聊聊G端产品</h2><p>G端产品，G指的是“Government”，是为政府、包括事业单位开发的产品。</p>
+<p>严格来讲，G端产品是B端产品（面向企业）的一个分支。</p>
+<h2 id="项目实施流程"><a href="#项目实施流程" class="headerlink" title="项目实施流程"></a>项目实施流程</h2><p>以下仅从作者所在文化行业事业单位经验角度出发进行总结</p>
+<h3 id="项目售前"><a href="#项目售前" class="headerlink" title="项目售前"></a>项目售前</h3><p>合同招标期间需配合售前商务撰写招标合同，完善功能部分。</p>
+<h3 id="项目立项"><a href="#项目立项" class="headerlink" title="项目立项"></a>项目立项</h3><p>商务进行立项后，同步项目经理进行立项会议，正式启动本年度合同内工作。</p>
+<h3 id="需求拆解"><a href="#需求拆解" class="headerlink" title="需求拆解"></a>需求拆解</h3><p>产品经理配合项目经理，进行合同内WBS任务分解。</p>
+<h3 id="需求调研"><a href="#需求调研" class="headerlink" title="需求调研"></a>需求调研</h3><p>当项目立项后，产品经理可能会到客户现场，进行各项调研，常见的有业务调研、数据调研、竞品调研。</p>
+<p><strong>业务调研：</strong>调研项目建设方的业务诉求、组织架构以及各部门关系。</p>
+<p><strong>数据调研：</strong>调研数据提供方的业务数据范围、数据质量以及信息化程度。涉及项目建设方能接入的数据量、如何接入的内容。</p>
+<p><strong>竞品调研：</strong>调研行业内的做法，对齐行业头部产品。</p>
+<h3 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h3><p>进入指标体系的搭建、原型设计，此阶段的目标是快速验证产品经理对项目业务的理解，拿到客户的认可，降低需求变更风险。</p>
+<p><strong>指标体系搭建：</strong>对齐业务需求，完成指标体系搭建。</p>
+<p><strong>系统原型设计：</strong>线框图对思路，高保真对内容。使用线框图快速向客户汇报思路，使用高保真原型让客户感知可视化效果。形成PPT汇报（可找UI美化）。指标体系、原型设计都不是一步到位的，往往要进行多次调整优化，尽可能将全面、详细同客户确认需求，以此降低后续研发中的变更成本。</p>
+<h3 id="资源排期"><a href="#资源排期" class="headerlink" title="资源排期"></a>资源排期</h3><p>项目经理协调技术经理、测试经理等人员进行功能量评估，如人员不足，及时上报协调人员。</p>
+<h3 id="研发管理"><a href="#研发管理" class="headerlink" title="研发管理"></a>研发管理</h3><p>&emsp;&emsp;当设计方案通过客户认可后，产品经理下一步要做的就是对接研发，此阶段主要目标是让研发团队理解系统需求、根据排期进入研发，最终上线系统。</p>
+<p><strong>开发评审：</strong>同步研发需求，减少信息差。在这个阶段，产品经理要拉上研发经理、研发团队、测试团队一同评审需求。从上而下的方式，大致讲解业务需求，再详细对接原型内容。</p>
+<p><strong>需求管理：</strong>管理需求变更及优先级，降低研发风险。在系统进入开发时，需求变更是避免不了的。要做好需求的管理，尤其是优先级的管理。</p>
+<p><strong>BUG跟踪：</strong>执行测试计划，BUG优化落实到人、及时更改状态。测试计划由测试人员进行，产品经理要及时跟进并验证。</p>
+<h3 id="项目验收"><a href="#项目验收" class="headerlink" title="项目验收"></a>项目验收</h3><p>&emsp;&emsp;中大型项目的验收通常会有初验、试运行、终验等阶段，项目经理会统筹整个项目的验收，产品经理涉及到的内容也比较多，如验收文档、培训等内容，此阶段主要目标是顺利通过验收，其他方面的事项优先级靠后。</p>
+<p><strong>系统演示：</strong>充分体现客户可视化效果、数据价值。可视化大屏最重要的就是如何体现数据价值，为了保证演示顺利进行，可以提前准备演示脚本、演示数据、操作流程等内容。<br><strong>验收文档：</strong>常见的有概要设计、详细设计等内容，产品经理要配合研发一同编写。<br><strong>验收会议：</strong>验收会议不单指一个会议，可能会包含专家评审、使用培训等内容，产品经理在这部分做好支撑即可。</p>
+<h2 id="G端产品特殊性"><a href="#G端产品特殊性" class="headerlink" title="G端产品特殊性"></a>G端产品特殊性</h2><ol>
+<li><p>产品受国家政策影响较大，产品功能需要紧贴政策需求、行业需求</p>
+</li>
+<li><p>产品受客户业务主导</p>
+</li>
+<li><p>想好如何将数据转化为知识服务产品提升效率</p>
+</li>
+<li><p>数据安全很重要，国家对政务系统安全性要求极高，政务系统逐步进入等保测评工作</p>
+</li>
+<li><p>产品的采购依据政府年度预算，具有极强的时效性和周期性</p>
+</li>
+<li><p>对于驻地和现场的反馈要高度重视</p>
+</li>
+<li><p>真正的使用者不一定是决策者，大部分是具体的执行人员在应用</p>
+</li>
+<li><p>产品主要服务于可以提升效率减少成本的环节中</p>
+</li>
+<li><p>注重业务流程和业务场景，做合理且专业的产品</p>
+</li>
+<li><p>要兼顾用户体验和业务需求之间的平衡</p>
+</li>
+</ol>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/G端产品/" rel="tag"># G端产品</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/08/20/zw-app2/" rel="next" title="造物app产品搭建之PRD文档">
+                <i class="fa fa-chevron-left"></i> 造物app产品搭建之PRD文档
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2021/08/02/oa/" rel="prev" title="OA系统的爱恨情仇">
+                OA系统的爱恨情仇 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpeg" alt="肉松">
+            
+              <p class="site-author-name" itemprop="name">肉松</p>
+              <p class="site-description motion-element" itemprop="description">爱我所爱</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">18</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/yumeng819" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#聊聊G端产品"><span class="nav-number">1.</span> <span class="nav-text">聊聊G端产品</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目实施流程"><span class="nav-number">2.</span> <span class="nav-text">项目实施流程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#项目售前"><span class="nav-number">2.1.</span> <span class="nav-text">项目售前</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#项目立项"><span class="nav-number">2.2.</span> <span class="nav-text">项目立项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需求拆解"><span class="nav-number">2.3.</span> <span class="nav-text">需求拆解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需求调研"><span class="nav-number">2.4.</span> <span class="nav-text">需求调研</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#系统设计"><span class="nav-number">2.5.</span> <span class="nav-text">系统设计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#资源排期"><span class="nav-number">2.6.</span> <span class="nav-text">资源排期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#研发管理"><span class="nav-number">2.7.</span> <span class="nav-text">研发管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#项目验收"><span class="nav-number">2.8.</span> <span class="nav-text">项目验收</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#G端产品特殊性"><span class="nav-number">3.</span> <span class="nav-text">G端产品特殊性</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">肉松</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

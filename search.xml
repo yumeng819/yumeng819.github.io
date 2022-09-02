@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[实体馆场馆预约需求分析及原型设计]]></title>
+    <title><![CDATA[实体馆场馆预约方案介绍]]></title>
     <url>%2F2022%2F07%2F15%2Fcgyy%2F</url>
-    <content type="text"><![CDATA[实体馆场馆预约需求分析及原型设计]]></content>
+    <content type="text"><![CDATA[实体馆场馆预约方案介绍]]></content>
       <categories>
         <category>产品</category>
         <category>项目管理</category>
@@ -75,7 +75,7 @@
   <entry>
     <title><![CDATA[人员管理的思考]]></title>
     <url>%2F2021%2F12%2F04%2Frygl%2F</url>
-    <content type="text"><![CDATA[人员管理的思考从独立的产品线负责人到产品负责人]]></content>
+    <content type="text"><![CDATA[人员管理的思考从独立的产品线负责人到产品负责人从产品把控到人员把控形成方法论]]></content>
       <categories>
         <category>产品</category>
         <category>项目管理</category>
@@ -85,6 +85,22 @@
         <tag>项目管理</tag>
         <tag>产品经理</tag>
         <tag>人员管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[你知道细颗粒度嘛？]]></title>
+    <url>%2F2021%2F10%2F10%2Fxkld%2F</url>
+    <content type="text"><![CDATA[你知道细颗粒度嘛？]]></content>
+      <categories>
+        <category>产品</category>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>G端产品</tag>
+        <tag>实体馆</tag>
+        <tag>票务系统</tag>
+        <tag>项目管理</tag>
+        <tag>图书馆</tag>
       </tags>
   </entry>
   <entry>
@@ -181,17 +197,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[hexo踩过的坑]]></title>
-    <url>%2F2019%2F09%2F26%2FhexoErr%2F</url>
-    <content type="text"><![CDATA[1.hexo在本地修改的nexT主题后，无法push到Github 提出问题：无法提交某个子文件夹下的文件解决方法：删掉子文件夹下的.git目录（themes/next下的.git目录） 12git rm --cached nextgit add next // next为子文件的路径 然后正常提交即可成功，亲测有效]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[es6之解构赋值]]></title>
     <url>%2F2019%2F09%2F26%2Fdescturction%2F</url>
     <content type="text"><![CDATA[解构赋值主要分为对象的解构和数组的解构 数组的解构赋值12 对象的解构赋值12 扩展运算符12]]></content>
@@ -200,6 +205,17 @@
       </categories>
       <tags>
         <tag>es6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo踩过的坑]]></title>
+    <url>%2F2019%2F09%2F26%2FhexoErr%2F</url>
+    <content type="text"><![CDATA[1.hexo在本地修改的nexT主题后，无法push到Github 提出问题：无法提交某个子文件夹下的文件解决方法：删掉子文件夹下的.git目录（themes/next下的.git目录） 12git rm --cached nextgit add next // next为子文件的路径 然后正常提交即可成功，亲测有效]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>

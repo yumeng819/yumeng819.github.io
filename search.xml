@@ -10,10 +10,36 @@
       </categories>
       <tags>
         <tag>G端产品</tag>
+        <tag>项目管理</tag>
         <tag>实体馆</tag>
         <tag>场馆预约</tag>
         <tag>票务系统</tag>
-        <tag>项目管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[肉松心理学]]></title>
+    <url>%2F2022%2F07%2F15%2Fxlx%2F</url>
+    <content type="text"><![CDATA[肉松心理学一些心理学小概念#### 事以密成反刍思维吊桥效应巴纳姆效应菜加尼克效应归因谬误人们常常把他人的行为归因于人格或态度等内在特质上，而忽略当事人所处情境的重要性。]]></content>
+      <categories>
+        <category>心理学</category>
+      </categories>
+      <tags>
+        <tag>肉松</tag>
+        <tag>心理学</tag>
+        <tag>概念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[剧本杀胡思乱想]]></title>
+    <url>%2F2022%2F07%2F15%2Fjbs%2F</url>
+    <content type="text"><![CDATA[剧本杀胡思乱想肉松随想 《真的，没骗你》 警方怀疑自杀 遗书 我杀了“我”自己 大家都有仇，都互相指证 最后变态，上帝视角看着你们斗 互相猜忌，反目成仇 爱情破裂亲人反目友情翻船 死前最后的报复 真的只是自杀 没骗你 推理十诫，不在场证明讲义，密室讲义，密室动机讲义，毒杀讲义等 嫁祸型自杀不为让你们忏悔只为让你们一起堕落 最后一个视频（遗照的格式黑白说话，最后流血一个微恐的留白） 世界以痛吻我 要我报之以歌 第一幕开头参加一场葬礼各自心怀鬼胎，都有互相隐瞒第二幕倒叙回到各自的故事第三幕互相隐瞒暴露，反目，不信任第四幕案发现场，推凶，投凶，加剧分裂第五幕结尾画面转回葬礼 人物：死者：三男三女：爱人：小三：父亲：母亲：兄弟： 一个绝对抗推位一个锁凶 最后口诉（病娇的语气或者疲惫）死亡的感觉可真不好受啊细致描写 推理：本格风格：微恐 硬核级别：进阶 5小时左右立意：人性、欺骗、反思]]></content>
+      <categories>
+        <category>剧本杀</category>
+      </categories>
+      <tags>
+        <tag>剧本杀</tag>
+        <tag>肉松</tag>
+        <tag>随想</tag>
       </tags>
   </entry>
   <entry>
@@ -30,21 +56,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[实名认证]]></title>
-    <url>%2F2022%2F05%2F02%2Fsmrz%2F</url>
-    <content type="text"><![CDATA[实名认证 &emsp;&emsp;根据现在国家对隐私政策要求，在建设过程中尽量少的收集用户个人信息，建设初期对系统内收集的敏感信息（手机号、身份证号、银行卡号等）做到前后端数据库脱敏加密，后期再处理数据会比较耗时。&emsp;&emsp;非必要不收集。&emsp;&emsp;如果涉及必要收集，例如支付、订票、游戏等根据相关要求收集，那么尽量采集少的数据，并且完成真实的实名审核。据调研，使用服务商通过姓名身份证号即可与公安数据库进行比对完成真实性查验。&emsp;&emsp;使用服务商实名认证身份信息查验能力，同公安部数据库进行联网对比，查验证件信息真实性，伪造、虚假身份信息无所遁形。&emsp;&emsp;这边作者最近使用的是移动云服务，贴个地址，可看相关技术文档https://ecloud.10086.cn/op-help-center/doc/category/783。&emsp;&emsp;一般该类型服务与短信验证码一样，按次计费。]]></content>
-      <categories>
-        <category>产品</category>
-        <category>项目管理</category>
-      </categories>
-      <tags>
-        <tag>G端产品</tag>
-        <tag>项目管理</tag>
-        <tag>产品经理</tag>
-        <tag>实名认证</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[登录注册及APP一键登录]]></title>
     <url>%2F2022%2F05%2F02%2Fappdlzc%2F</url>
     <content type="text"><![CDATA[登录注册及APP一键登录快捷注册、不过度收集用户信息的同时确保账号实效，简化登录注册流程提高用户注册率。]]></content>
@@ -54,10 +65,25 @@
       </categories>
       <tags>
         <tag>G端产品</tag>
-        <tag>项目管理</tag>
         <tag>产品经理</tag>
         <tag>登录注册</tag>
         <tag>APP</tag>
+        <tag>项目管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[实名认证]]></title>
+    <url>%2F2022%2F05%2F02%2Fsmrz%2F</url>
+    <content type="text"><![CDATA[实名认证 &emsp;&emsp;根据现在国家对隐私政策要求，在建设过程中尽量少的收集用户个人信息，建设初期对系统内收集的敏感信息（手机号、身份证号、银行卡号等）做到前后端数据库脱敏加密，后期再处理数据会比较耗时。&emsp;&emsp;非必要不收集。&emsp;&emsp;如果涉及必要收集，例如支付、订票、游戏等根据相关要求收集，那么尽量采集少的数据，并且完成真实的实名审核。据调研，使用服务商通过姓名身份证号即可与公安数据库进行比对完成真实性查验。&emsp;&emsp;使用服务商实名认证身份信息查验能力，同公安部数据库进行联网对比，查验证件信息真实性，伪造、虚假身份信息无所遁形。&emsp;&emsp;这边作者最近使用的是移动云服务，贴个地址，可看相关技术文档https://ecloud.10086.cn/op-help-center/doc/category/783。&emsp;&emsp;一般该类型服务与短信验证码一样，按次计费。]]></content>
+      <categories>
+        <category>产品</category>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>G端产品</tag>
+        <tag>产品经理</tag>
+        <tag>项目管理</tag>
+        <tag>实名认证</tag>
       </tags>
   </entry>
   <entry>
@@ -82,8 +108,8 @@
       </categories>
       <tags>
         <tag>G端产品</tag>
-        <tag>项目管理</tag>
         <tag>产品经理</tag>
+        <tag>项目管理</tag>
         <tag>人员管理</tag>
       </tags>
   </entry>
@@ -97,9 +123,9 @@
       </categories>
       <tags>
         <tag>G端产品</tag>
+        <tag>项目管理</tag>
         <tag>实体馆</tag>
         <tag>票务系统</tag>
-        <tag>项目管理</tag>
         <tag>图书馆</tag>
       </tags>
   </entry>
@@ -197,17 +223,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[es6之解构赋值]]></title>
-    <url>%2F2019%2F09%2F26%2Fdescturction%2F</url>
-    <content type="text"><![CDATA[解构赋值主要分为对象的解构和数组的解构 数组的解构赋值12 对象的解构赋值12 扩展运算符12]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>es6</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[hexo踩过的坑]]></title>
     <url>%2F2019%2F09%2F26%2FhexoErr%2F</url>
     <content type="text"><![CDATA[1.hexo在本地修改的nexT主题后，无法push到Github 提出问题：无法提交某个子文件夹下的文件解决方法：删掉子文件夹下的.git目录（themes/next下的.git目录） 12git rm --cached nextgit add next // next为子文件的路径 然后正常提交即可成功，亲测有效]]></content>
@@ -216,6 +231,17 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[es6之解构赋值]]></title>
+    <url>%2F2019%2F09%2F26%2Fdescturction%2F</url>
+    <content type="text"><![CDATA[解构赋值主要分为对象的解构和数组的解构 数组的解构赋值12 对象的解构赋值12 扩展运算符12]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>es6</tag>
       </tags>
   </entry>
   <entry>
